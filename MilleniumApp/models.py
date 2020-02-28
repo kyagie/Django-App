@@ -8,6 +8,6 @@ class Buyer(models.Model):
     city = models.CharField(max_length = 20)
     state = models.CharField(max_length = 20)
     class Meta:
-        db_table = "student"
+        db_table = "buyer"
 
 # Create your models here.
