@@ -1,0 +1,26 @@
+.main{
+    /* width: 200%; */
+    height: 480px;
+    background-color: rgb(29, 204, 29);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.formarea{
+    background-color: yellow;
+    height: 189px;
+    width: 400px;
+    margin-left: 10px;
+}
+.save{
+    margin-top: 20px;
+}
+.chair{
+    margin-left: 500px;
+    position: relative;
+    top: -200px;
+    
+}
+.post-form{
+    font-size: large; 
+    font-weight: bold;   
+}

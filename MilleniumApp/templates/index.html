@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Index</title>
+        <link rel="stylesheet" href="{% static 'MilleniumApp/css/style.css'%}">
+    </head>
+    <body>
+        <div class="main">
+        <h1>Welcome to Millenium Gynmastics Booster Club Popcorn Sales</h1>
+            <div class="formarea">
+                <form method="POST" class="post-form" enctype="multipart/form-data">
+                    {% csrf_token %}
+                    {{form.as_p}}
+                    <button type="submit" class="save btn btn-default">Submit Order</button>
+                    <button type="clear" class="cl">Clear Order Form</button>  
+
+                </form>
+            </div>  
+            <div class="chair">
+                <img src="{% static 'MilleniumApp/chair.jpg'%}" alt="picture">
+            </div>  
+    </div>
+    
+        
+    </body>
+</html>
